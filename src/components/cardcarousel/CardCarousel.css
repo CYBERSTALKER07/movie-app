@@ -1,0 +1,22 @@
+/* src/components/cardcarousel/CardCarousel.css */
+
+.card-carousel {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+  }
+  
+  .card {
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    margin-right: 10px;
+    -o-border-radius: 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+}
